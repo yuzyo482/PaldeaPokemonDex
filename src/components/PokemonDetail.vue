@@ -98,14 +98,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  // position: fixed;
-  // top: 0;
-  // left: 0;
   padding: 90px 10px 10px;
   width: calc(100% - 20px);
 
-  // height: calc(100vh - 20px);
-  // background: rgba($color: #000000, $alpha: .7);
   .detail-view {
     display: flex;
     justify-content: center;
@@ -123,7 +118,7 @@ export default {
 
     .divLeft,
     .divRight {
-      width: calc(45% + 1.5rem);
+      width: calc(40% + 1.5rem);
       @media screen and (max-width: 500px) {
         width: calc(80% + 1.5rem);
       }
@@ -133,8 +128,6 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      // position: absolute;
-      // top: -60px;
       width: 120px;
       height: 120px;
       background-color: #333;
@@ -209,7 +202,7 @@ export default {
       }
 
       .stats {
-        width: 80%;
+        width: 60%;
 
         @media screen and (max-width: 500px) {
         width: 95%;
