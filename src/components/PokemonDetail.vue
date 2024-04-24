@@ -202,7 +202,11 @@ export default {
       }
 
       .stats {
-        width: 60%;
+        width: 70%;
+
+        @media screen and (max-width: 1080px) {
+        width: 90%;
+      }
 
         @media screen and (max-width: 500px) {
         width: 95%;
